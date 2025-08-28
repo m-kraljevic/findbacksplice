@@ -10,8 +10,6 @@ Generates backsplice coordinates for use with circular RNA pipelines. Requires:
 - the .fasta file of backsplice junction sequences/probes
 - the .fasta file used to generate the BLAST database (i.e. a genome .fasta file)
 
-Changing the default search length of 10,000 can be changed with the -s flag, for example a search of 100,000 bp can be accomplished with:
-    python blast_terminal_analysis.py -b <blast_xml_file> -i <probe_fasta> -g <genome_fasta> -s 100000
 
 """
 
